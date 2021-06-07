@@ -1,0 +1,16 @@
+* {
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+
+body {
+  background: 
+  url(./images/bg-pattern-top.svg) 
+  bottom 50vh right 50vw no-repeat,
+  url(./images/bg-pattern-bottom.svg) 
+  top 50vh left 50vw no-repeat;
+  background-color: hsl(185, 75%, 39%);
+  height: 100vh;
+}
+
