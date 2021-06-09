@@ -16,8 +16,19 @@ body {
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  font-family: 'Kumbh Sans', sans-serif;
+  
 }
-
+h2 {
+  font-size: 18px;
+}
+p, span {
+  font-weight: 400;
+}
+.clr-gray {
+  color: hsl(0, 0%, 59%);
+  
+}
 .card {
   margin: 0 auto;
   max-width: 375px;
@@ -49,7 +60,7 @@ body {
 }
 .profile-title {
   text-align: center;
-  border-bottom: 1px solid hsl(0, 0%, 59%);
+  border-bottom: 1px solid hsla(0, 0%, 59%, 0.2);
 }
 .profile-title h2 {
   padding: 10px 0;
@@ -67,6 +78,14 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  margin: 1rem 0;
-  
+  margin: 2rem 1rem;
+}
+.profile-stats h2 {
+  padding-bottom: 10px;
+}
+.profile-stats h2, p {
+  text-align: center;
+}
+.profile-stats p {
+  font-size: 12px;
 }
