@@ -25,13 +25,12 @@ body {
   background-color: white;
   display: flex;
   flex-direction: column;
-  border-radius: 15px;
+  border-radius: 25px;
 }
 
 .profile-pic-section {
   position: relative;
   background-size: cover;
-  border: none;
   width: 100%;
   height: auto;
   margin-bottom: 2.5rem;
@@ -43,6 +42,10 @@ body {
   transform: translate(-50%, -50%);
   border-radius: 50%;
   border:5px solid white;
+}
+.profile-background-img {
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
 }
 .profile-title {
   text-align: center;
