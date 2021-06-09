@@ -12,5 +12,58 @@ body {
   top 50vh left 50vw no-repeat;
   background-color: hsl(185, 75%, 39%);
   height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
+.card {
+  margin: 0 auto;
+  max-width: 375px;
+  height: 405px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+}
+
+.profile-pic-section {
+  position: relative;
+  background-size: cover;
+  border: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
+.profile-img {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  border:5px solid white;
+}
+.profile-title {
+  text-align: center;
+  border-bottom: 1px solid hsl(0, 0%, 59%);
+}
+.profile-title h2 {
+  padding: 10px 0;
+}
+.profile-title p {
+  margin-bottom: 1rem;
+}
+.profile-stats-section {
+  margin-top: 2.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.profile-stats {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1rem 0;
+  
+}
